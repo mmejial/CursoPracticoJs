@@ -29,7 +29,7 @@ function perimetroTriangulo(lado1,lado2, base){
 } 
 /* console.log(`el perimetro del triangulo es ${perimetroTriangulo}`); */
 const areaTriangulo = (base,altura)=>{
-    console.log((base * altura)/2);
+    return (base * altura)/2
 } 
 /* console.log(`el Area del triangulo es ${areaTriangulo}`); */
 
@@ -62,7 +62,7 @@ function calcularAreaCuadrado(){
     const value = input.value;
     const areaCuadrado= areadCuadrado(value)
     alert(`el area de mi cuadrado es ${areaCuadrado}`)
-    console.log(typeof(value));
+    
 }
 
 /* funciones del triangulo */
@@ -74,15 +74,30 @@ const calcularPerimetroTriangulo=()=>{
     const vale2= lado2.value;
     const valebase= base.value;
     
+    const perimetrodelTriangulo = perimetroTriangulo(Number(vale1), Number(vale2), Number(valebase))
+    alert(`el perimetro del triangulo es ${perimetrodelTriangulo}`)
+    
+}
+const calcularAreaTriangulo=()=>{
+    const lado1 = document.getElementById('InputTriangulo1');
+    const lado2 = document.getElementById('InputTriangulo2');
+    const base = document.getElementById('InputBaseTriangulo');
+    const vale1 = Number(lado1.value);
+    const vale2= Number(lado2.value);
+    const valebase= Number(base.value);
+    
     if (vale1 === vale2){
-        let cuadrado = Math.pow(Number(valebase),2) - Math.pow(Number(vale1),2);
-        let altura = Math.sqrt(cuadrado); 
-        console.log(Math.sqrt());
-        alert(`la altura es ${altura}`)
+        let mitadbase= valebase/2;
+        let cuadrado = Math.pow(vale1,2) - Math.pow(mitadbase,2);
+        let altura = Math.sqrt(cuadrado);
+        console.log(altura);
+        
+
+        const areadelTriangulo = areaTriangulo(valebase, altura )
+        alert(areadelTriangulo);
     }
     else{
-        alert('no es isoceles')
-    }
-
+        alert('no se puede calcular')
     
+}
 }
