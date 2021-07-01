@@ -7,3 +7,10 @@ Curso Practico de Js
 - Segundo paso: Implementear las Formulas
 - Tercer paso: crear funciones
 - Cuarto paso: integras JS con HTML
+
+
+## Taller #2 procentajes y descuentos
+- Primer paso: Definir formulas
+- Segundo paso: Implementear las Formulas
+- Tercer paso: crear funciones
+- Cuarto paso: integras JS con HTML
