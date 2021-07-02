@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.box{
+    margin:  10px;
+    border: 1px solid black;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    
+    
+    
+    
+    
+}
+.box h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #ccc;
+    margin: 0 auto;
+    
+
+    
+}
