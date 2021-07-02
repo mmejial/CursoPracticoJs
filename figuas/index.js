@@ -38,14 +38,14 @@ console.groupEnd();
 console.group('circulo');
 
 const PI = Math.PI;
-const diametroCirculo= (radio)=>    radio * 2;
-const perimetroCirculo =(radio)=>{
+/* const diametroCirculo= (radio)=>    radio * 2; */
+/* const perimetroCirculo =(radio)=>{
     const diametro = diametroCirculo(radio)
   return diametro * PI;
 } 
 const areaCirculo =(radio)=>{
     return Math.pow(radio, 2) * PI;
-} 
+}  */
 console.groupEnd();
 
 /* area de calculos con botones */
@@ -100,4 +100,19 @@ const calcularAreaTriangulo=()=>{
         alert('no se puede calcular')
     
 }
+}
+
+const diametroCirculo =()=>{
+    const radio = document.getElementById('InputCirculo1');
+    const rad = parseInt(radio.value);
+    const diametroCirculo = rad *2;
+    alert(`el diametro con un radio de ${rad} es igual a ${diametroCirculo}`)
+}
+const perimetroCirculo=()=>{
+    const radio = document.getElementById('InputCirculo1');
+    const rad = parseInt(radio.value);
+    
+    const perimetro = Math.pow(rad, 2) * PI;
+    
+    alert (`el perimetro del Circulo con un rario de ${rad} es: ${perimetro}`)
 }
