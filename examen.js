@@ -1,7 +1,7 @@
 const Nombre = 'Marco Antonio';
 const Apellido = 'Mejia Lopez';
 let usrName = 'MarcoMejiaL';
-let edad = 30;
+let edad = 31;
 const Email = 'marcomejia159010@gmail.com';
 let mayorEdad = true;
 let dineroAhorrado = 200;
