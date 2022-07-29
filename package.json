@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "node-fetch": "^3.2.9",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "name": "cursopracticojs",
+  "description": "Curso Practico de Js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "callback": "node ./asincronismo/XMLHTTP/challenge.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcoMejiaL/CursoPracticoJs.git"
+  },
+  "keywords": [],
+  "author": "Marco Mejia Lopez <marcomejia159010@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MarcoMejiaL/CursoPracticoJs/issues"
+  },
+  "homepage": "https://github.com/MarcoMejiaL/CursoPracticoJs#readme",
+ "type":"module"
+}
